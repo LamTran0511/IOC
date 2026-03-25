@@ -16,7 +16,7 @@ public class ProductController {
     public ProductController(ProductService productService) {
         this.productService = productService;
     }
-
+// test
     @GetMapping("/api/products")
     public ArrayList<Product> getAllProducts(){
         return productService.getAllProducts();
